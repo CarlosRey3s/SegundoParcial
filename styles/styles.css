@@ -1,0 +1,169 @@
+/* SELECTORES BASICOS */
+header, section, article, nav, footer, aside, figure, form{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+p, h1{
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    color: #ffffff;
+    margin: 6px;
+}
+h2{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #093a63, #21c7d6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}  
+h1{font-size: 24px;}
+h2{font-size: 40px;}
+p{font-size: 14px;}
+a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 40px;
+}
+ul, ol{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #555555;
+}
+.logo{
+    width: 20%;
+    padding: 6px 0;
+}
+/* -------------------MENU------------------------ */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px; /* Se disminuye el padding vertical y horizontal */
+    background: linear-gradient(to right, #093a63, #21c7d6);
+    color: white;
+    z-index: 1;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    margin: 0;
+}
+nav a {
+    display: flex; 
+    align-items: center;
+    padding: 20px 10px; 
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center; 
+    width: 100%;
+}
+nav a:hover {
+    background-color: rgba(35, 218, 214, 0.21);
+    color: #ffffff;
+}  
+nav a i {
+    margin-right: 5px; 
+}
+/* CONTENIDO */
+.seccion{
+    width: 100%;
+    margin: 0;
+}
+.banner{
+    background-image: url("/imagenes/13106906_5139993.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1004px;
+    margin-top: 150px; 
+    position: relative;
+    width: 100%; /* ajustar el ancho al 100% */
+}
+.inicio{
+    background: #E9E9E9;
+    height: 920px;
+    position: relative;
+    padding-top: 100px;
+}
+.calendario{
+    background: #fff url("/imagenes/fondo-ciudad.png") no-repeat bottom;
+    height: 920px;
+    position: relative;
+    padding-top: 100px;
+}
+.ariticulos{
+    background: #E9E9E9;
+    height: 920px;
+    position: relative;
+    padding-top: 100px;
+}
+.mas{
+    background: #ffffff url("/imagenes/fondo-ciudad.png") no-repeat bottom;
+    height: 920px;
+    position: relative;
+    padding-top: 100px;
+}
+.tren{
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 900px;
+    position: absolute;
+    right: 0;
+    top: 90%;
+}
+/* DISEÑO DE PIE DE PAGINA */
+#piepagina{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100px; 
+    background-color: #0ebdee; 
+}
+.cajapie {
+    display: flex;
+    align-items: center; 
+}
+.cajapie p {
+    margin: 0 100px;
+    font-size: 30px;
+}
+.cajapie ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 0;
+}
+.cajapie li {
+    margin: 0 10px;
+}
+.cajapie a {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 40px; 
+    height: 40px; 
+    color: rgb(5, 44, 122); 
+    text-decoration: none;
+}
+.cajapie a:hover {
+    background-color: #333; 
+    color: #fff; 
+}
